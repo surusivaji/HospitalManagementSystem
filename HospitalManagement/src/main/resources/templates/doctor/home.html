@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand fw-bold" th:href="@{/doctor/home}"><i class="fa-solid fa-hospital"></i> Medi Home</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" th:href="@{/doctor/home}">Home</a>
+	        </li>
+	         <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" th:href="@{/doctor/viewpatients}">PATIENT</a>
+	        </li>
+	      </ul>
+	      <div class="dropdown me-4">
+			<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+			   <i class="fa-solid fa-user-circle"></i> [[${session.fullName}]]
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+				<li><a class="dropdown-item" th:href="@{/doctor/editprofile}">Edit Profile</a></li>
+				 <li><a class="dropdown-item" th:href="@{/doctor/logout}">Logout</a></li>
+			</ul>
+		 </div>
+	    </div>
+	  </div>
+	</nav>
+	
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-md-12">
+				<h3 class="text-center text-danger fs-2 fw-bolder heading">Doctor Dashboard</h3>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-center">
+			<div class="col-md-4 mt-3">
+				<div class="card">
+					<div class="card-body text-center text-primary">
+						<i class="fa-solid fa-user-doctor fa-3x"></i>
+						<p class="text-center fs-3">
+							Doctors <br> [[${session.totalDoctors}]]
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mt-3">
+				<div class="card">
+					<div class="card-body text-center text-primary">
+						<i class="fa-solid fa-calendar-check fa-3x"></i>
+						<p class="text-center fs-3">
+							Appointments <br> [[${session.totalAppointments}]]
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

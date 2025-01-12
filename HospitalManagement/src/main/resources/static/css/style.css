@@ -1,0 +1,59 @@
+body {
+	background-color: #FFFDEC !important;
+}
+
+.card {
+	box-shadow: 0 0 2px 2px #E5D9F2;
+}
+
+.edit-btn {
+	background: #3EC70B !important;
+	border: none;	
+}
+
+.remove-btn {
+	background: #FC4100 !important;
+	border: none;
+}
+
+.submit-btn {
+	background: #7900FF !important;
+	border: none;
+}
+
+.font-color {
+	color: #800080 !important;
+	text-shadow: 1px 1px #000;
+}
+
+.heading {
+	color: #FF0000 !important;
+	text-shadow: 1px 1px #000;
+}
+
+.backImg {
+	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+		url('../images/hospital.jpg');
+	height: 25vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.btn-ok {
+	background: #06D001 !important;
+	color: #fff !important;
+	border: none;
+}
+
+.btn-pending {
+	background: #FC4100 !important;
+	color: #fff !important;
+	border: none;
+}
+
+.disabled-link {
+        pointer-events: none;
+        color: gray; 
+        text-decoration: none; 
+    }
