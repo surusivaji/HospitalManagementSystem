@@ -6,60 +6,147 @@
 <hr>
 
 <h2>📖 Project Features</h2>
-<ul>
-    <li>Built with <strong>Spring MVC, Spring JPA, and Spring Boot</strong>.</li>
-    <li>Frontend designed using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.</li>
-    <li>Database powered by <strong>MySQL</strong>.</li>
-    <li>Role-based access for <strong>Users, Doctors, and Admins</strong>.</li>
-</ul>
+<p><i>⚙️</i> Built with <strong>Spring MVC, Spring JPA, and Spring Boot</strong>.</p>
+<p><i>🎨</i> Frontend designed using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.</p>
+<p><i>💾</i> Database powered by <strong>MySQL</strong>.</p>
+<p><i>🔒</i> Role-based access for <strong>Users, Doctors, and Admins</strong>.</p>
 
 <hr>
 
 <h2>👤 User Functionalities</h2>
-<ul>
-    <li>📅 Add appointments.</li>
-    <li>🧾 View patient details.</li>
-    <li>🔒 Change their password.</li>
-</ul>
+<p><i>📅</i> Add appointments.</p>
+<p><i>🧾</i> View patient details.</p>
+<p><i>🔑</i> Change their password.</p>
 
 <h2>🔑 Admin Functionalities</h2>
-<ul>
-    <li>➕ Add, ✏️ Edit, 👁️ View, and ❌ Remove doctors.</li>
-    <li>➕ Add specialists.</li>
-    <li>📋 View patient details.</li>
-    <li>📊 View overall statistics (doctors, appointments, specialists, users).</li>
-</ul>
+<p><i>➕</i> Add, <i>✏️</i> Edit, <i>👁️</i> View, and <i>❌</i> Remove doctors.</p>
+<p><i>➕</i> Add specialists.</p>
+<p><i>📋</i> View patient details.</p>
+<p><i>📊</i> View overall statistics (doctors, appointments, specialists, users).</p>
 
 <h2>🩺 Doctor Functionalities</h2>
-<ul>
-    <li>👁️ View patient details.</li>
-    <li>✏️ Edit their profile.</li>
-    <li>💊 Provide prescriptions.</li>
-    <li>📊 View counts of doctors and patients.</li>
-</ul>
+<p><i>👁️</i> View patient details.</p>
+<p><i>✏️</i> Edit their profile.</p>
+<p><i>💊</i> Provide prescriptions.</p>
+<p><i>📊</i> View counts of doctors and patients.</p>
 
 <hr>
 
-<h2>📦 Project Structure</h2>
-<ul>
-    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, and Bootstrap for responsive UI.</li>
-    <li><strong>Backend:</strong> Spring Boot for backend logic, Spring MVC for handling requests.</li>
-    <li><strong>Database:</strong> MySQL for secure data storage.</li>
-</ul>
+<h2>📸 Project Screenshots</h2>
+<p>Below are some attractive screenshots of the application:</p>
+
+<!-- Image Gallery -->
+<div>
+    <h3>🏠 Index Page</h3>
+    <img src="index.png" alt="Index Page" width="70%">
+</div>
+
+<div>
+    <h3>🔑 User Login Page</h3>
+    <img src="userlogin.png" alt="User Login Page" width="70%">
+</div>
+
+<div>
+    <h3>📝 User Registration Page</h3>
+    <img src="registration.png" alt="User Registration Page" width="70%">
+</div>
+
+<div>
+    <h3>👤 User Home Page</h3>
+    <img src="userhomepage.png" alt="User Home Page" width="70%">
+</div>
+
+<div>
+    <h3>📅 Appointment Page</h3>
+    <img src="appointmentpage.png" alt="Appointment Page" width="70%">
+</div>
+
+<div>
+    <h3>📋 Appointment List Page</h3>
+    <img src="appointmentslist.png" alt="Appointment List Page" width="70%">
+</div>
+
+<div>
+    <h3>🔑 Change Password Page</h3>
+    <img src="changepassword.png" alt="Change Password Page" width="70%">
+</div>
+
+<div>
+    <h3>🚪 User Logout Page</h3>
+    <img src="userlogout.png" alt="User Logout Page" width="70%">
+</div>
+
+<div>
+    <h3>👨‍⚖️ Admin Login Page</h3>
+    <img src="adminlogin.png" alt="Admin Login Page" width="70%">
+</div>
+
+<div>
+    <h3>🏠 Admin Home Page</h3>
+    <img src="adminhomepage.png" alt="Admin Home Page" width="70%">
+</div>
+
+<div>
+    <h3>🩺 Admin Doctor Dashboard</h3>
+    <img src="admindoctorsdashboard.png" alt="Admin Doctor Dashboard" width="70%">
+</div>
+
+<div>
+    <h3>🖊️ Update Doctor Information</h3>
+    <img src="updatedoctor.png" alt="Update Doctor Page" width="70%">
+</div>
+
+<div>
+    <h3>❌ Remove Doctor Page</h3>
+    <img src="removedoctor.png" alt="Remove Doctor Page" width="70%">
+</div>
+
+<div>
+    <h3>👩‍⚕️ Doctor Page</h3>
+    <img src="allpatientdetails.png" alt="All Patient Details" width="70%">
+</div>
+
+<div>
+    <h3>🚪 Admin Logout Page</h3>
+    <img src="adminlogout.png" alt="Admin Logout Page" width="70%">
+</div>
+
+<div>
+    <h3>👨‍⚕️ Doctor Login Page</h3>
+    <img src="doctorlogin.png" alt="Doctor Login Page" width="70%">
+</div>
+
+<div>
+    <h3>🏠 Doctor Home Page</h3>
+    <img src="doctorhomepage.png" alt="Doctor Home Page" width="70%">
+</div>
+
+<div>
+    <h3>👩‍⚕️ Patient Details Page</h3>
+    <img src="patientdetails.png" alt="Patient Details Page" width="70%">
+</div>
+
+<div>
+    <h3>📝 Doctor Comment Page</h3>
+    <img src="doctorcomment.png" alt="Doctor Comment Page" width="70%">
+</div>
+
+<div>
+    <h3>🚪 Doctor Logout Page</h3>
+    <img src="doctorlogout.png" alt="Doctor Logout Page" width="70%">
+</div>
 
 <hr>
 
 <h2>🚀 Getting Started</h2>
 
-<h3>Prerequisites</h3>
-<ul>
-    <li>Java 8 or above</li>
-    <li>Spring Boot</li>
-    <li>MySQL</li>
-    <li>Maven</li>
-</ul>
+<h3>🛠️ Prerequisites</h3>
+<p><i>☕</i> Java 8 or above</p>
+<p><i>⚙️</i> Spring Boot</p>
+<p><i>💾</i> MySQL</p>
+<p><i>🔧</i> Maven</p>
 
-<h3>Steps to Run</h3>
+<h3>⚡ Steps to Run</h3>
 <ol>
     <li>Clone the repository:
         <pre><code>git clone https://github.com/yourusername/hospital-management-system.git</code></pre>
@@ -85,12 +172,10 @@ spring.datasource.password=your_password
 <hr>
 
 <h2>📊 Statistics</h2>
-<ul>
-    <li>Total Doctors</li>
-    <li>Total Appointments</li>
-    <li>Total Specialists</li>
-    <li>Total Users</li>
-</ul>
+<p><i>👨‍⚕️</i> Total Doctors</p>
+<p><i>📅</i> Total Appointments</p>
+<p><i>💼</i> Total Specialists</p>
+<p><i>👥</i> Total Users</p>
 
 <hr>
 
@@ -122,73 +207,10 @@ spring.datasource.password=your_password
     <li><strong>View Statistics:</strong> Admins have access to a dashboard showing overall hospital statistics.</li>
 </ol>
 <hr>
-
-
-<h2>🖼️ Screenshots</h2>
-<p>Below are some screenshots of the application:</p>
-<ul>
-    <li><strong>Index Page:</strong></li>
-    <img src="index.png" alt="Index Page" width="70%">
-    <li><strong>User Login Page:</strong></li>
-    <img src="userlogin.png" alt="login page" width="70%">
-    <li><strong>User Regisration Page:</strong></li>
-    <img src="registration.png" alt="Registration Page" width="70%">
-    <li><strong>User Home Page:</strong></li>
-    <img src="userhomepage.png" alt="User Home Page" width="70%">
-    <li><strong>Appoinment Page:</strong></li>
-    <img src="appointmentpage.png" alt="Appointment Page" width="70%">
-    <li><strong>Appointment List Page:</strong></li>
-    <img src="appointmentslist.png" alt="Appointment List Page" width="70%">
-    <li><strong>Chage Password Page:</strong></li>
-    <img src="changepassword.png" alt="Change Password Page" width="70%">
-    <li><strong>User Logout Page:</strong></li>
-    <img src="userlogout.png" alt="User Logout Page" width="70%">
-    <li><strong>Admin Login Page:</strong></li>
-    <img src="adminlogin.png" alt="Admin Login Page" width="70%">
-    <li><strong>Admin Home Page:</strong></li>
-    <img src="adminhomepage.png" alt="Admin Home Page" width="70%">
-    <li><strong>Admin Doctor Dashboard:</strong></li>
-    <img src="admindoctorsdashboard.png" alt="Admin Doctor Dashboard" width="70%">
-    <li><strong>Update Doctor Information:</strong></li>
-    <img src="updatedoctor.png" alt="Update Doctor Page" width="70%">
-    <li><strong>Remove Doctor Page:</strong></li>
-    <img src="removedoctor.png" alt="Remove Doctor Page" width="70%">
-    <li><strong> Doctor Page:</strong></li>
-    <img src="allpatientdetails.png" alt="All Patient Details" width="70%">
-    <li><strong>Admin Logout Page:</strong></li>
-    <img src="adminlogout.png" alt="Admin Logout Page" width="70%">
-    <li><strong>Doctor Login Page:</strong></li>
-    <img src="doctorlogin.png" alt="Doctor Login Page" width="70%">
-     <li><strong>Doctor Home Page:</strong></li>
-    <img src="doctorhomepage.png" alt="Doctor Home Page" width="70%">
-     <li><strong>Patient Details Page:</strong></li>
-    <img src="patientdetails.png" alt="Patient Details Page" width="70%">
-     <li><strong>Doctor Comment Page:</strong></li>
-    <img src="commentpage.png" alt="Doctor Comment Page" width="70%">
-     <li><strong>Doctor Logout Page:</strong></li>
-    <img src="doctorlogout.png" alt="Doctor Login Page" width="70%">
-</ul>
-<hr>
-<h2>💡 Future Enhancements</h2>
-<ul>
-    <li>Notification system for upcoming appointments.</li>
-    <li>Email integration for password recovery.</li>
-    <li>Analytics dashboard for hospital performance insights.</li>
-</ul>
-
-<hr>
-
-<h2>🤝 Contributing</h2>
-<p>Contributions are welcome! Please fork the repository and submit a pull request.</p>
-
-<hr>
-
-<h2>🏷️ License</h2>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
-<hr>
-
-<h2>👨‍💻 Developed By</h2>
-<p><strong>Suru Sivaji</strong></p>
-<p>Connect with me on <a href="https://linkedin.com/in/your-linkedin">LinkedIn</a> or check out my other projects on <a href="https://github.com/yourusername">GitHub</a>.</p>
-
+<div align="center">
+    <h2>🎉 Thank You for Using the Hospital Management System!</h2>
+    <p>We hope this application helps streamline your experience, whether you're a user scheduling appointments, a doctor managing patients, or an administrator overseeing the operations.</p>
+    <div>  
+        <h3><i>💖</i>Stay Safe, Stay Healthy!<i>💖</i></h3>  
+    </div>
+</div>
