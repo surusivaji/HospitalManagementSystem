@@ -123,6 +123,52 @@ spring.datasource.password=your_password
 </ol>
 <hr>
 
+
+<h2>🖼️ Screenshots</h2>
+<p>Below are some screenshots of the application:</p>
+<ul>
+    <li><strong>Index Page:</strong></li>
+    <img src="index.png" alt="Index Page" width="70%">
+    <li><strong>User Login Page:</strong></li>
+    <img src="userlogin.png" alt="login page" width="70%">
+    <li><strong>User Regisration Page:</strong></li>
+    <img src="registration.png" alt="Registration Page" width="70%">
+    <li><strong>User Home Page:</strong></li>
+    <img src="userhomepage.png" alt="User Home Page" width="70%">
+    <li><strong>Appoinment Page:</strong></li>
+    <img src="appointmentpage.png" alt="Appointment Page" width="70%">
+    <li><strong>Appointment List Page:</strong></li>
+    <img src="appointmentslist.png" alt="Appointment List Page" width="70%">
+    <li><strong>Chage Password Page:</strong></li>
+    <img src="changepassword.png" alt="Change Password Page" width="70%">
+    <li><strong>User Logout Page:</strong></li>
+    <img src="userlogout.png" alt="User Logout Page" width="70%">
+    <li><strong>Admin Login Page:</strong></li>
+    <img src="adminlogin.png" alt="Admin Login Page" width="70%">
+    <li><strong>Admin Home Page:</strong></li>
+    <img src="adminhomepage.png" alt="Admin Home Page" width="70%">
+    <li><strong>Admin Doctor Dashboard:</strong></li>
+    <img src="admindoctorsdashboard.png" alt="Admin Doctor Dashboard" width="70%">
+    <li><strong>Update Doctor Information:</strong></li>
+    <img src="updatedoctor.png" alt="Update Doctor Page" width="70%">
+    <li><strong>Remove Doctor Page:</strong></li>
+    <img src="removedoctor.png" alt="Remove Doctor Page" width="70%">
+    <li><strong> Doctor Page:</strong></li>
+    <img src="allpatientdetails.png" alt="All Patient Details" width="70%">
+    <li><strong>Admin Logout Page:</strong></li>
+    <img src="adminlogout.png" alt="Admin Logout Page" width="70%">
+    <li><strong>Doctor Login Page:</strong></li>
+    <img src="doctorlogin.png" alt="Doctor Login Page" width="70%">
+     <li><strong>Doctor Home Page:</strong></li>
+    <img src="doctorhomepage.png" alt="Doctor Home Page" width="70%">
+     <li><strong>Patient Details Page:</strong></li>
+    <img src="patientdetails.png" alt="Patient Details Page" width="70%">
+     <li><strong>Doctor Comment Page:</strong></li>
+    <img src="commentpage.png" alt="Doctor Comment Page" width="70%">
+     <li><strong>Doctor Logout Page:</strong></li>
+    <img src="doctorlogout.png" alt="Doctor Login Page" width="70%">
+</ul>
+<hr>
 <h2>💡 Future Enhancements</h2>
 <ul>
     <li>Notification system for upcoming appointments.</li>
